@@ -11,6 +11,7 @@ $server->serve('app.min');
 
 ## Zzplab\LabScss\LabCompiler extends Leafo\ScssPhp\Compiler
 Solves an error when compiling Zurb/Foundation 6+ css framework @ Compiler.php:3122:
+https://github.com/leafo/scssphp/issues/446
 ```
   public function get($name, $shouldThrow = true, Environment $env = null)
   {
