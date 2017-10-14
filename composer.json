@@ -1,8 +1,11 @@
 {
     "name": "zzplab/labscss",
-    "description": "Extend leafo/scssphp",
+    "description": "Extend leafo/scssphp"
+    ,"autoload": {
+        "psr-4": { "Zzplab\\LabScss\\": "src/" }
+    },
     "require": {
-        "php": "^5.6 || ^7.0",
-        "leafo/scssphp": "0.7.*"
+        "php": "^7.1",
+        "leafo/scssphp": "^0.7"
     }
 }
