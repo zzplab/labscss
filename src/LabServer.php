@@ -10,7 +10,7 @@
  
 namespace Zzplab\LabScss;
 
-require dirname(__DIR__) . '/leafo/scssphp/example/Server.php';
+require dirname(dirname(dirname(__DIR__))) . '/leafo/scssphp/example/Server.php';
 
 use Leafo\ScssPhp\Server;
 
