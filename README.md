@@ -20,7 +20,13 @@ Solves an error when compiling Zurb/Foundation 6+ css framework @ Compiler.php:3
   }
 ```
 
-## Example how to use
+## Install
+
+```
+composer require zzplab/labscss
+```
+
+## Example use
 
 ```
 <?php
@@ -35,6 +41,8 @@ $server = new LabServer(__DIR__, __DIR__, $scss);
 $server->serve('app.min');
 
 ```
+Checkout the Leafo/ScssPhp homepage, http://leafo.github.io/scssphp, for directions on how to use the scssphp compiler.
 
+### Note
 My personal intention with this Leafo/ScssPhp wrapper is to make updating and maintainance easier using composer for my self and add some extra functions while they are not available (yet) in Leafo/ScssPhp itself.
 Feel free to use it or respond with issue or request.
