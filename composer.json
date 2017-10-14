@@ -1,10 +1,20 @@
 {
     "name": "zzplab/labscss",
-    "description": "Extend leafo/scssphp"
-    ,"autoload": {
+    "type": "library",
+    "description": "Extend leafo/scssphp",
+    "keywords": ["css", "stylesheet", "scss", "sass", "less"],
+    "license": ["MIT"],
+    "autoload": {
+        "psr-4": { "Zzplab\\LabScss\\": "src/" }
+    },
+    "autoload-dev": {
         "psr-4": { "Zzplab\\LabScss\\": "src/" }
     },
     "require": {
+        "php": "^7.1",
+        "leafo/scssphp": "^0.7"
+    },
+    "require-dev": {
         "php": "^7.1",
         "leafo/scssphp": "^0.7"
     }
