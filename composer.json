@@ -1,16 +1,16 @@
+"repositories": [
 {
-    "name": "zzplab/labscss",
-    "type": "library",
-    "description": "Extend leafo/scssphp a compiler for SCSS written in PHP.",
-    "keywords": ["css", "stylesheet", "scss", "sass", "less"],
-    "homepage": "https://github.com/zzplab/labscss",
-    "license": [
-        "MIT"
-    ],
-    "autoload": {
-        "psr-4": { "Zzplab\\LabScss\\": "src/" }
-    },
-    "require": {
-        "php": ">=7.1"
+    "type": "package",
+    "package": {
+        "name": "labscss",
+        "version": "0.7.5",
+        "source": {
+            "url": "https://github.com/zzplab/labscss.git",
+            "type": "git",
+            "reference": "master"
+        }
     }
+}],
+"require" : {
+  "php": "7.*"
 }
