@@ -12,6 +12,6 @@
     },
     "require": {
         "php": "^7.1",
-        "leafo/scssphp": "^0.7@stable"
+        "leafo/scssphp": ">=0.7.0"
     }
 }
