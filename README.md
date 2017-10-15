@@ -1,5 +1,5 @@
 # ZzpLab\LabScss
-Extending Leafo\ScssPhp
+Extending [Leafo\ScssPhp](https://github.com/leafo/scssphp)
 
 
 
