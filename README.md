@@ -45,7 +45,6 @@ $server->serve('app.min');
 In your browser you can use with or without .scss extension and set css versions on the fly speeding up development:
 ```
 .../scss.php/app
-.../scss.php/app
 .../scss.php/app.scss
 .../scss.php/app/1.4.8
 .../scss.php/app/1.4.8-dev
